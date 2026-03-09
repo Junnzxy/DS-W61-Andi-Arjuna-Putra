@@ -9,3 +9,4 @@ jadi output programnya adalah:
 pertanyaannya kenapa beda?
 jadi di line ( Vehicle v2 = new Car() ) adalah bentuk polomorphism, kita buat Mobil (Car) sebagai kendaraan (Vehicle) yg lebih umum.
 trus karena class (car) seudah timpah metodh ( move() ), jadi secara otomatis dia jalankan versi yg ada di class (Car), bukan versi aslinya yg ada di class (Vehicle).
+trus dia tidak lihat "label" variablenya (Vehicle), tapi dia liat isi atau object aslinya memori "Car"
