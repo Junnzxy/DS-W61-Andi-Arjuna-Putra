@@ -9,4 +9,6 @@ nah walaupun label nya itu Animal, dia bakalan tetap liat isi aslinya new Cat(),
 Animal a dai bakaln pastikan kalau object ini punya kemampuan untuk bersuara (sound)
 sedangkan new Cat() dia tentukanm bagaimana caranya dia bersuara (antara "Meow" atau "Some animal Sound").
 
-nah karena a adalah hewan dia pasti bisa bersuara, makanya Animal tugasnya supaya ini kode memastikan supay dia tidak ngawur outputnya
+nah karena a adalah hewan dia pasti bisa bersuara, 
+makanya Animal tugasnya supaya ini kode memastikan supay dia tidak ngawur outputnya
+
