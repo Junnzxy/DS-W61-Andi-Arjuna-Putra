@@ -1,0 +1,12 @@
+nah jadi Animal a = new Cat(); iyu label atau type datanya dari variable nya
+trus karena tipe nya itu Animal kita cuman bisa panggil method yg sudah terdaftar yaitu sound()
+
+kenapap pakai kelas parent Animal disini? bukan child Animal?
+nah disini mi bentuk polimophismnya dengan cara pakai tipe Parent (Animal), nah Variable a bisa di isi apa saja,
+nah karena mereka turunan dari Animal ototmatis kita bisa ganti hewannya jadi apa saja.
+
+nah walaupun label nya itu Animal, dia bakalan tetap liat isi aslinya new Cat(), nah kenapa bisa begitu?
+Animal a dai bakaln pastikan kalau object ini punya kemampuan untuk bersuara (sound)
+sedangkan new Cat() dia tentukanm bagaimana caranya dia bersuara (antara "Meow" atau "Some animal Sound").
+
+nah karena a adalah hewan dia pasti bisa bersuara, makanya Animal tugasnya supaya ini kode memastikan supay dia tidak ngawur outputnya
