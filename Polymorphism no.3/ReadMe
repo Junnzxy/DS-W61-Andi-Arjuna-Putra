@@ -1,0 +1,11 @@
+jadi perbedaanya itu dari methode yg diwariskan, antara method overriding sama method inheritance
+
+kenapa e.work() pakao subclass?
+method ini pakai versi subclass Programer karena kita sudah overriding,
+jadi didalam class (Programer), kita secara eksplisit tulis ulang method work()
+meskipun variable e bertype  Employe, tapi bakalan kebaca Programer, itu terjadi karena java selalu mendahulukan method yg paling spesifik, (method yg ada di kelas object asli tersebut).
+
+kenapa e.attendMeeting() Superclass?
+method ini pakai versi superclass (Employe) karena methodnya hanya bersifar inherited/diwariskan.
+jadi class (programer) tidak punya method ( attendMeeting() ), karena (programer extends Employe), ia mewariskan semua kemampuan dari Emplye.
+saat ( e.attendMeeting() ) dipanggil, java cari  methode di class (Programer), karena ridak ada, secara otomatis "naik" ke class Parent (Employe) untuk cari dan jalankan implementasi yg sudah ada disana.
