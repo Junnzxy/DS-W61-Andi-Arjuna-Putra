@@ -1,0 +1,3 @@
+nah didalam kode ini ada 2 metodenya:
+  1. v1.move() untuk panggil methode aslinya dari class parent (vehicle) karena objeect yg dibuat memang obj=ject vehicle asli
+  2. v2.move() yg ini untuk panggil methode yg sudah di ubah jadi child class (Car) karena ioiobject aslinya adalah Car, meskipun dia turunan dari Vehicle.
